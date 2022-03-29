@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Apr 21 10:42:33 2021
+# Process ID: 1924
+# Current directory: C:/Users/WTse_/Desktop/RISC-V_Core_On_FPGA/HDRVSoC-Xilinx/hardware/Vivado_top/EGOR035_HDRVSoC_top/EGOR035_HDRVSoC_top.runs/impl_1
+# Command line: vivado.exe -log EGOR035_HDRVSoC_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source EGOR035_HDRVSoC_top.tcl -notrace
+# Log file: C:/Users/WTse_/Desktop/RISC-V_Core_On_FPGA/HDRVSoC-Xilinx/hardware/Vivado_top/EGOR035_HDRVSoC_top/EGOR035_HDRVSoC_top.runs/impl_1/EGOR035_HDRVSoC_top.vdi
+# Journal file: C:/Users/WTse_/Desktop/RISC-V_Core_On_FPGA/HDRVSoC-Xilinx/hardware/Vivado_top/EGOR035_HDRVSoC_top/EGOR035_HDRVSoC_top.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source EGOR035_HDRVSoC_top.tcl -notrace

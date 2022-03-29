@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Apr 15 12:59:16 2021
+# Process ID: 2308
+# Current directory: E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/Vivado/ATIX7/RISC-V/RISC-V.runs/impl_1
+# Command line: vivado.exe -log Artix_SoC_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Artix_SoC_top.tcl -notrace
+# Log file: E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/Vivado/ATIX7/RISC-V/RISC-V.runs/impl_1/Artix_SoC_top.vdi
+# Journal file: E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/Vivado/ATIX7/RISC-V/RISC-V.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Artix_SoC_top.tcl -notrace

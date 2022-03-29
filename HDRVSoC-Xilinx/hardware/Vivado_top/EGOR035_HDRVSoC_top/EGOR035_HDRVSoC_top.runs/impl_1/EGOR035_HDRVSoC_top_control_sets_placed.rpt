@@ -1,0 +1,113 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Wed Apr 21 10:43:05 2021
+| Host         : DESKTOP-U3R54NC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file EGOR035_HDRVSoC_top_control_sets_placed.rpt
+| Design       : EGOR035_HDRVSoC_top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    35 |
+|    Minimum number of control sets                        |    35 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   113 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    35 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     7 |
+| >= 6 to < 8        |     4 |
+| >= 8 to < 10       |     4 |
+| >= 10 to < 12      |     3 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    14 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              73 |           38 |
+| No           | No                    | Yes                    |             270 |          124 |
+| No           | Yes                   | No                     |              62 |           22 |
+| Yes          | No                    | No                     |             249 |           73 |
+| Yes          | No                    | Yes                    |             322 |          133 |
+| Yes          | Yes                   | No                     |             119 |           28 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------+---------------------------------------------------------------------+-------------------------------------------------------------+------------------+----------------+
+|    Clock Signal   |                            Enable Signal                            |                       Set/Reset Signal                      | Slice Load Count | Bel Load Count |
++-------------------+---------------------------------------------------------------------+-------------------------------------------------------------+------------------+----------------+
+|  clock_25m_BUFG   |                                                                     | soc0/pout_seg_u/seg0/SEL[6]_i_1_n_0                         |                1 |              2 |
+|  clock_25m_BUFG   |                                                                     | soc0/pout_seg_u/seg0/cnt_reg_n_0_[18]                       |                1 |              4 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/FSM_sequential_fsm_reg[1]_0         | soc0/isp_uart_inst/uart_rx_inst/FSM_sequential_fsm_reg[1]_2 |                1 |              4 |
+|  CLK_50_IBUF_BUFG |                                                                     | soc0/isp_uart_inst/uart_tx_line_inst/SR[0]                  |                2 |              4 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/FSM_sequential_fsm_reg[0]           |                                                             |                2 |              4 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/FSM_sequential_fsm_reg[1]           |                                                             |                2 |              4 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/isp_user_sel_reg_2                  | soc0/isp_uart_inst/tx_data[7][6]_i_1_n_0                    |                1 |              5 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_tx_line_inst/tx_cnt[6]_i_2_n_0              | soc0/isp_uart_inst/uart_tx_line_inst/tx_cnt[6]_i_1_n_0      |                2 |              5 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/status                              | soc0/isp_uart_inst/uart_rx_inst/status[5]_i_1_n_0           |                2 |              6 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/shift                               |                                                             |                1 |              6 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/user_uart_in_isp_inst/o_uart_tx_i_1_n_0          | soc0/cnt[8]_i_2__0_n_0                                      |                3 |              6 |
+|  CLK_50_IBUF_BUFG |                                                                     | soc0/isp_uart_inst/uart_rx_inst/clear                       |                2 |              7 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/user_uart_in_isp_inst/tx_shift[7]_i_1_n_0        | soc0/cnt[8]_i_2__0_n_0                                      |                2 |              8 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/o_data[7]_i_1_n_0                   |                                                             |                2 |              8 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/databuf                             |                                                             |                4 |              8 |
+|  CLK_50_IBUF_BUFG |                                                                     | soc0/isp_uart_inst/uart_tx_line_inst/clear                  |                3 |              9 |
+|  CLK_50_IBUF_BUFG | soc0/video_ram_inst/vga_char_86x32_inst/data0                       | soc0/cnt[8]_i_2__0_n_0                                      |                3 |             10 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/user_uart_in_isp_inst/fifo_rd_pointer[9]_i_1_n_0 | soc0/cnt[8]_i_2__0_n_0                                      |                5 |             10 |
+|  CLK_50_IBUF_BUFG | soc0/core_top_inst/E[0]                                             | soc0/cnt[8]_i_2__0_n_0                                      |                3 |             10 |
+|  clock_25m_BUFG   |                                                                     |                                                             |                4 |             13 |
+|  CLK_50_IBUF_BUFG | soc0/video_ram_inst/vga_char_86x32_inst/clp[3]                      | soc0/cnt[8]_i_2__0_n_0                                      |                6 |             14 |
+|  clock_25m_BUFG   |                                                                     | soc0/pout_seg_u/seg0/cnt[18]_i_1_n_0                        |                6 |             19 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/FSM_sequential_fsm_reg[1]           | soc0/isp_uart_inst/uart_rx_inst/o_data_reg[2]_0             |                7 |             28 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/FSM_sequential_fsm_reg[0]           | soc0/isp_uart_inst/uart_rx_inst/o_data_reg[3]_0             |                7 |             28 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/E[0]                                |                                                             |                9 |             30 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/bus\\.wr_req_reg_0[0]               |                                                             |                8 |             30 |
+|  CLK_50_IBUF_BUFG | soc0/core_top_inst/core_instr_bus_adapter_i/stall_n                 | soc0/cnt[8]_i_2__0_n_0                                      |               22 |             32 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/bus\\.wr_addr_reg[3]_0                           | soc0/cnt[8]_i_2__0_n_0                                      |               22 |             36 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/FSM_sequential_fsm_reg[1]_0         |                                                             |               15 |             40 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_tx_line_inst/tx_shift[99]_i_1_n_0           | soc0/isp_uart_inst/uart_tx_line_inst/tx_shift[97]_i_1_n_0   |                8 |             43 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_tx_line_inst/tx_shift[99]_i_1_n_0           |                                                             |               10 |             57 |
+|  CLK_50_IBUF_BUFG | soc0/isp_uart_inst/uart_rx_inst/FSM_sequential_fsm_reg[0]_0[0]      |                                                             |               20 |             62 |
+|  CLK_50_IBUF_BUFG |                                                                     |                                                             |               34 |             67 |
+|  CLK_50_IBUF_BUFG | soc0/core_top_inst/p_0_in                                           | soc0/cnt[8]_i_2__0_n_0                                      |               67 |            196 |
+|  CLK_50_IBUF_BUFG |                                                                     | soc0/cnt[8]_i_2__0_n_0                                      |              131 |            287 |
++-------------------+---------------------------------------------------------------------+-------------------------------------------------------------+------------------+----------------+
+
+

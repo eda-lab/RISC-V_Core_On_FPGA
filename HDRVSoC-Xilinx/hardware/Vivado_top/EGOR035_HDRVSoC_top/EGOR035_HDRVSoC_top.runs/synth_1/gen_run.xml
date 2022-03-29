@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1618972861">
+  <File Type="PA-TCL" Name="EGOR035_HDRVSoC_top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="EGOR035_HDRVSoC_top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="EGOR035_HDRVSoC_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="EGOR035_HDRVSoC_top.vds"/>
+  <File Type="RDS-UTIL" Name="EGOR035_HDRVSoC_top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="EGOR035_HDRVSoC_top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="EGOR035_HDRVSoC_top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="EGOR035_HDRVSoC_top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="EGOR035_HDRVSoC_top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/pout_seg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/seg.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/char8x16_rom.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/char8x16_rom.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/core_alu.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/core_alu.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/core_bus_wrapper.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/core_bus_wrapper.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/core_id_stage.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/core_id_stage.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/core_instr_bus_adapter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/core_instr_bus_adapter.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/core_regfile.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/core_regfile.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/core_top.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/core_top.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/dual_read_port_ram_32x32.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/dual_read_port_ram_32x32.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/instr_rom.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/instr_rom.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/isp_uart.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/isp_uart.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/naive_bus.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/naive_bus.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/naive_bus_router.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/naive_bus_router.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pout_led.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/ram.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/ram.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/ram128B.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/ram128B.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/ram_bus_wrapper.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/ram_bus_wrapper.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/soc_top.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/soc_top.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/uart_rx.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/uart_rx.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/uart_tx_line.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/uart_tx_line.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/user_uart_tx.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/user_uart_tx.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/vga_char_86x32.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/vga_char_86x32.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/RTL/video_ram.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/PostgraduateCareer/Objects/gcc_RV32I/gcc_rv32i_xilinx/vivado_USTC-RVSoC-master/USTC-RVSoC-master/hardware/RTL/video_ram.sv"/>
+        <Attr Name="ImportTime" Val="1567345883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EGOR035_HDRVSoC_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="EGOR035_HDRVSoC_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/EGOR035_HDRVSoC_top.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
